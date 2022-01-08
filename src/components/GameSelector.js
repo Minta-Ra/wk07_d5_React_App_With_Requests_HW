@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 
+
 const GameSelector = (props) => {
 
     const [selectGenres, setSelectGenres] = useState([]);
@@ -34,6 +35,10 @@ const GameSelector = (props) => {
         setSelectGenres(uniqueGenres);
     };
 
+    const handleSelectChange = (event) => {
+        props.selectedGenre(event.target.value)
+    };
+
     const displayGenreOptions = selectGenres.map((genre, index) => {
         return <option value={genre} key={index}>{genre}</option>
     });
@@ -41,7 +46,7 @@ const GameSelector = (props) => {
 
     return (
         <div className="game-selector">
-        <select>
+        <select onChange={handleSelectChange}>
             <option value="" >Choose a genre</option>
             {displayGenreOptions}
         </select>
