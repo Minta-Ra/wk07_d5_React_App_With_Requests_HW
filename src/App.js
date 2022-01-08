@@ -1,8 +1,17 @@
 import './App.css';
+import GameContainer from './containers/GameContainer';
 
 function App() {
+
+  const links = [
+    {name: "All", url: "https://cors-anywhere.herokuapp.com/https://www.freetogame.com/api/games"}
+  ];
+
   return (
-    <h1>It is working</h1>
+    <>
+      <h1>Games to play:</h1>
+      <GameContainer links={links}/>
+    </>
   );
 }
 
