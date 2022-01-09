@@ -34,10 +34,18 @@ hr {
   color: white;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .list-item {
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
   list-style: none;
-  width: 33%;
+  width: 31%;
   height: auto;
+}
+
+img {
+  width: 98%;
+  border-radius: 7px;
 }

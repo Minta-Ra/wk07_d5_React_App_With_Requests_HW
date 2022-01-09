@@ -6,14 +6,13 @@ const ListItem = ({game}) => {
     
         <li className="list-item">
             <a href={game.game_url}>
-                
             <img src={game.thumbnail}></img>
+            </a>
 
             <div>
                 {game.title}
             </div>
             <hr></hr>
-            </a>
         </li>
     );
 };
