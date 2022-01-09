@@ -46,7 +46,7 @@ const GameSelector = (props) => {
 
     return (
         <div className="game-selector">
-            <select onChange={handleSelectChange} class="form-select form-select-sm" aria-label=".form-select-sm example">
+            <select onChange={handleSelectChange} className="form-select form-select-sm" aria-label=".form-select-sm example">
                 <option value="" >Choose by genre</option>
                 {displayGenreOptions}
             </select>

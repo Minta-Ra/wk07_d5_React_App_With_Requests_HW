@@ -28,6 +28,14 @@ h1 {
   justify-content: center;
 }
 
+.game-search-box {
+  opacity: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
 .form-select {
   width: 40%;
   margin: 15px;
