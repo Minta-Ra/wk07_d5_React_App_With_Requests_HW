@@ -16,18 +16,22 @@ code {
 
 /* -------------------------- */
 h1 {
+  margin-top: 20px;
   color: white;
   text-align: center;
 }
 
 .game-selector {
-  text-align: center;
-  margin: 15px;
+  opacity: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-hr {
-  background-color: white;
-  height: 2px;
+.form-select {
+  width: 40%;
+  margin: 15px;
+  text-align: center;
 }
 
 .list {
