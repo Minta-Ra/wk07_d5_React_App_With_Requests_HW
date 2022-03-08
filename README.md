@@ -1,6 +1,6 @@
 # Find Games to play
 
-This is a React application with requests from API. Chosen API brings information 
+An app that allows users to browse and find their favourite game. Multi-component React web application using API requests to load JSON data. Chosen external API fetches the data of computer games. To facilitate the user's research, there is an implemented search box that allows users to search for a game by name, and a drop-down menu allows users to get sorted games by genre.
 
 ### <a href="https://github.com/codeclan/g28_classnotes/blob/main/week_07/day_4/weekend_homework/weekend_homework.md">
 Full brief</a>
